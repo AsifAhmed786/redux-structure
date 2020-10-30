@@ -1,8 +1,8 @@
-const set_data = ()=>{
-    // console.log("Hello")
+const set_data = ()=>{    
     return (dispatch)=>{
-        // console.log("hello")
-        dispatch({type: "SETDATA"})
+        console.log("running....")
+        dispatch({type:"SETDATA",user:{name:"Umair",email:"umair@gmail.com"}})
+        
     }
 }
 
